@@ -1,0 +1,26 @@
+*****************************************************
+*          NEMO SIMULATION                          *
+*   project   n02-PROPHET                     *
+*   config    asf_c90                     *
+*   NEMOexe   /work/n02/n02/chbull/nemo/models/NEMO404_MO/tests/asfdyn/BLD/bin/nemo.exe                     *
+*   case      00008                     *
+*   Desc      config 08. cases 73-97 trying tanh shelf with a range of open and blocked single width walls, tanh bathymetry is otherwise the same as c16. re-entrant zonal boundary, now with momentum diagnostics output. And improved world ocean atlas initial conditions and restoring as well as better vertical levels, this includes surface restoring in upper 10m. now with thickness weighted momentum diagnostics. This is the re-runs in light of paper revision with gm (2000) and eddy heat transport diagnostics. 100 year run                     *
+*   Date      2024-02-08 16:31:50.423093                     *
+*                                                   *
+*   Users choices:                                 *
+*   rP_PROJ        n02-PROPHET                      *
+*   rP_CONFIG      asf_c90                      *
+*   rP_CONFIG_TYPE ASF                      *
+*   BFILE       /work/n02/n02/chbull/nemo/bld_configs/input_ASF/new_bathy_ASF_c37_deeprid.nc                      *
+*   TSFILE      /work/n02/n02/chbull/nemo/bld_configs/input_ASF/TS_init_c03_woa2018.nc                      *
+*   FLXFILE      /work/n02/n02/chbull/nemo/bld_configs/input_ASF/flxforce_case01_grid_.nc                      *
+*   rP_CASE        00008                      *
+*   rP_YEAR0       1                      *
+*   rP_YEAR_MAX    100                      *
+*   RDIR        /work/n02/n02/chbull/nemo/run                      *
+*   rP_WORKDIR     /work/n02/n02/chbull/nemo/run/asf_c90_00008                      *
+*   rP_STOCKDIR    /work/n02/n02/chbull/nemo/nemo_output                      *
+*   rP_CONFIG     asf_c90                      *
+*   FORCING     /work/n01/shared/core2                      *
+*   NEMOdir     /work/n02/n02/chbull/nemo/models/NEMO404_MO/                      *
+*****************************************************
